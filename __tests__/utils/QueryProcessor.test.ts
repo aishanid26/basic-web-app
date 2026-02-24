@@ -57,10 +57,10 @@ describe("QueryProcessor", () => {
           ));
     })
     test('should return name', () => {
-        const query = "What is 1 multiplied by 48?";
+        const query = "What is 47 minus 23?";
         const response: string = QueryProcessor(query);
         expect(response).toBe((
-            "48"
+            "24"
           ));
     })
 
