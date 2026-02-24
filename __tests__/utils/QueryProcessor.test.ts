@@ -57,10 +57,10 @@ describe("QueryProcessor", () => {
           ));
     })
     test('should return name', () => {
-        const query = "What is 47 minus 23?";
+        const query = "Which of the following numbers is both a square and a cube: ";
         const response: string = QueryProcessor(query);
         expect(response).toBe((
-            "24"
+            "64"
           ));
     })
 
