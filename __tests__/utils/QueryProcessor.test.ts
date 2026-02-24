@@ -32,5 +32,14 @@ describe("QueryProcessor", () => {
         expect(response).toBe((
             "aishanid"
           ));
+    });
+
+    test('should return name', () => {
+        const query = "	What is 85 plus 44?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe((
+            "129"
+          ));
     })
+
 });

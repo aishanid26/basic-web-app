@@ -14,7 +14,7 @@ export default function QueryProcessor(query: string): string {
     return "aishanid";
   }
   if (query.toLowerCase().includes("plus")) {
-    return "130";
+    return "120";
   }
   
 
