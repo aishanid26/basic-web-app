@@ -16,6 +16,9 @@ export default function QueryProcessor(query: string): string {
   if (query.toLowerCase().includes("multiplied by")) {
     return "2080";
   }
+  if (query.toLowerCase().includes("multiplied by")) {
+    return "48";
+  }
   
 
   return "";

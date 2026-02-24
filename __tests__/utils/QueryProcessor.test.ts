@@ -56,7 +56,13 @@ describe("QueryProcessor", () => {
             "2080"
           ));
     })
-    
+    test('should return name', () => {
+        const query = "What is 1 multiplied by 48?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe((
+            "48"
+          ));
+    })
 
 
 });
