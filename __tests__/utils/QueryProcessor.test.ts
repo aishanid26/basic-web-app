@@ -42,4 +42,21 @@ describe("QueryProcessor", () => {
           ));
     })
 
+    test('should return name', () => {
+        const query = "	What is 85 plus 44?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe((
+            "129"
+          ));
+    })
+    test('should return name', () => {
+        const query = "What is 32 multiplied by 65?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe((
+            "2080"
+          ));
+    })
+    
+
+
 });

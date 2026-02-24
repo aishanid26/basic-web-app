@@ -13,8 +13,8 @@ export default function QueryProcessor(query: string): string {
   if (query.toLowerCase().includes("andrew id")) {
     return "aishanid";
   }
-  if (query.toLowerCase().includes("plus")) {
-    return "120";
+  if (query.toLowerCase().includes("multiplied by")) {
+    return "2080";
   }
   
 
